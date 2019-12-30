@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[28,)" #mandatory (28 is current forge version)
+loaderVersion="[30,)" #mandatory
 issueTrackerURL="https://github.com/MoriyaShiine/crashma/issues" #optional
 [[mods]] #mandatory
 modId="crashma" #mandatory
@@ -11,12 +11,12 @@ description='''What's Crashma, you ask? Crashma game LOL'''
 [[dependencies.crashma]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[28,)" #mandatory
+    versionRange="[30,)" #mandatory
     ordering="NONE"
     side="BOTH"
 [[dependencies.crashma]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.14.4]"
+    versionRange="[1.15.1]"
     ordering="NONE"
     side="BOTH"
