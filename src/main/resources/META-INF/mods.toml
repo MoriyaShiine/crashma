@@ -1,18 +1,19 @@
-modLoader="javafml" #mandatory
-loaderVersion="[31,)" #mandatory
-issueTrackerURL="https://github.com/MoriyaShiine/crashma/issues" #optional
-[[mods]] #mandatory
-modId="crashma" #mandatory
-version="${file.jarVersion}" #mandatory
-displayName="Crashma" #mandatory
-displayURL="https://www.curseforge.com/minecraft/mc-mods/crashma" #optional
-logoFile="icon.png" #optional
-authors="MoriyaShiine" #optional
-description='''What's Crashma, you ask? Crashma game LOL'''
-[[dependencies.crashma]] #optional
-    modId="forge" #mandatory
-    mandatory=true #mandatory
-    versionRange="[31,)" #mandatory
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/MoriyaShiine/crashma/issues"
+[[mods]]
+modId="crashma"
+version="${file.jarVersion}"
+displayName="Crashma"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/crashma"
+logoFile="icon.png"
+authors="MoriyaShiine"
+description='''
+What's Crashma, you ask? Crashma game LOL'''
+[[dependencies.crashma]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.crashma]]
