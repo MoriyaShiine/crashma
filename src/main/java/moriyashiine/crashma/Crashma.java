@@ -14,10 +14,11 @@ public class Crashma implements ModInitializer, WorldTickCallback {
 	@SuppressWarnings("ConstantConditions")
 	@Override
 	public void tick(World world) {
-		if (!world.isClient)
-		{
+		if (!world.isClient) {
 			long time = world.getTime();
-			if (time > 0 && time % 1200 == 0 && world.random.nextInt(3) == 0) ((Entity) null).isOnFire();
+			if (time > 0 && time % 1200 == 0 && world.random.nextInt(3) == 0) {
+				((Entity) null).isOnFire();
+			}
 		}
 	}
 }
