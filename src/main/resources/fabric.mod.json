@@ -11,6 +11,7 @@
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/crashma",
 	"sources": "https://github.com/MoriyaShiine/crashma"
   },
+  "license": "GPL-3.0",
   "icon": "assets/crashma/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -19,9 +20,9 @@
 	]
   },
   "depends": {
-	"fabricloader": ">=0.9.0",
+	"fabricloader": "*",
 	"fabric": "*",
-	"minecraft": "1.16.3"
+	"minecraft": ">=1.14"
   },
   "suggests": {
 	"flamingo": "*"
