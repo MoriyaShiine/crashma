@@ -23,8 +23,5 @@
 	"fabricloader": "*",
 	"fabric": "*",
 	"minecraft": ">=1.14"
-  },
-  "suggests": {
-	"flamingo": "*"
   }
 }
