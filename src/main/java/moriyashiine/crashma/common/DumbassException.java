@@ -1,4 +1,4 @@
-package moriyashiine.crashma;
+package moriyashiine.crashma.common;
 
 public class DumbassException extends RuntimeException {
 }

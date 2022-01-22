@@ -17,12 +17,16 @@
   "environment": "*",
   "entrypoints": {
 	"main": [
-	  "moriyashiine.crashma.Crashma"
+	  "moriyashiine.crashma.common.Crashma"
+	],
+	"client": [
+	  "moriyashiine.crashma.client.CrashmaClient"
 	]
   },
   "depends": {
 	"fabricloader": ">=0.12.12",
 	"minecraft": "*",
+	"java": ">=17",
 	"fabric": "*"
   }
 }
