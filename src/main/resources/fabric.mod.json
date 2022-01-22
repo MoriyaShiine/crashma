@@ -9,9 +9,10 @@
   ],
   "contact": {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/crashma",
-	"sources": "https://github.com/MoriyaShiine/crashma"
+	"sources": "https://github.com/MoriyaShiine/crashma",
+	"issues": "https://github.com/MoriyaShiine/crashma/issues"
   },
-  "license": "GPL-3.0",
+  "license": "All Rights Reserved",
   "icon": "assets/crashma/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -20,8 +21,8 @@
 	]
   },
   "depends": {
-	"fabricloader": "*",
-	"fabric": "*",
-	"minecraft": ">=1.14"
+	"fabricloader": ">=0.12.12",
+	"minecraft": "*",
+	"fabric": "*"
   }
 }
