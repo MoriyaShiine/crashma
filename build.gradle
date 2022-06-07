@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '0.10-SNAPSHOT'
+    id 'fabric-loom' version '0.12-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -10,48 +10,12 @@ archivesBaseName = project.archives_base_name
 version = project.mod_version
 group = project.maven_group
 
-repositories {
-    maven {
-        name "cardinal components, trinkets"
-        url "https://ladysnake.jfrog.io/artifactory/mods"
-        content {
-            includeGroup 'io.github.ladysnake'
-            includeGroupByRegex 'io\\.github\\.onyxstudios.*'
-        }
-    }
-    maven {
-        name "reach entity attributes"
-        url "https://maven.jamieswhiteshirt.com/libs-release"
-        content {
-            includeGroup "com.jamieswhiteshirt"
-        }
-    }
-    maven {
-        name "trinkets"
-        url "https://maven.terraformersmc.com"
-    }
-    maven {
-        name "rei"
-        url "https://maven.shedaniel.me"
-    }
-    maven {
-        name "botania"
-        url "https://maven.blamejared.com"
-    }
-    maven {
-        name "jitpack"
-        url "https://jitpack.io"
-    }
-}
-
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings loom.officialMojangMappings()
     modImplementation "net.fabricmc:fabric-loader:${loader_version}"
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
-
-    modImplementation "vazkii.botania:Botania:${botania_version}"
 }
 
 processResources {
