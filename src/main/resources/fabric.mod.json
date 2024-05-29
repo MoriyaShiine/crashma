@@ -8,25 +8,19 @@
 	"MoriyaShiine"
   ],
   "contact": {
-	"homepage": "https://www.curseforge.com/minecraft/mc-mods/crashma",
+	"homepage": "https://modrinth.com/mod/crashma",
 	"sources": "https://github.com/MoriyaShiine/crashma",
 	"issues": "https://github.com/MoriyaShiine/crashma/issues"
   },
   "license": "All Rights Reserved",
   "icon": "assets/crashma/icon.png",
   "environment": "*",
-  "entrypoints": {
-	"main": [
-	  "moriyashiine.crashma.common.Crashma"
-	],
-	"client": [
-	  "moriyashiine.crashma.client.CrashmaClient"
-	]
-  },
+  "mixins": [
+	"crashma.mixins.json"
+  ],
   "depends": {
-	"fabricloader": ">=0.14.6",
-	"minecraft": ">=1.19",
-	"java": ">=17",
-	"fabric": ">=0.55.1"
+	"fabricloader": "*",
+	"minecraft": "*",
+	"java": "*"
   }
 }

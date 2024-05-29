@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "moriyashiine.crashma.mixin",
+  "server": [
+	"MinecraftServerMixin"
+  ],
+  "client": [
+	"ClientWorldMixin"
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
